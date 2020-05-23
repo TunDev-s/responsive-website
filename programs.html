@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" href="prog.css" > 
+<title> Promgrams' Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Merienda+One&family=Patua+One&display=swap" rel="stylesheet">
+
+<meta  charset =" utf-8">
+<script> 
+function search() {
+ 
+}
+</script>
+</head>
+<body>
+    <nav>
+        <div class="logo"> Programs' Libraries</div>
+<form name="f1" class="ok"  >
+    <div class="lol">
+  <label> search your program here : </label> <input type="search" maxlength="50" placeholder="Exmpl:Hashtable.py" />
+  <input type="button" onclick="search()"   value="Search" class="o"> 
+</div>
+</nav>
+<div class="python">
+<h1> Python</h1>
+<article class="art1">
+    <nav class="x">    
+ <ul>
+<li><a href="ex1.py" >Nombrepremier </a> </li>
+</nav>
+</article>
+</div>
+<div class="cp">
+    <h1> C++</h1>
+    <article class="art2">
+        <nav class="x">
+            <ul>
+      <li> <a href="ex1.cpp" >Nombrepremier </a> </li>
+    </ul>
+            </nav>
+    </article>
+    </div>
+    <div class="java">
+        
+        <h1> Java</h1>
+        <article class="art4">
+            <nav class="x">             
+                   <ul>
+           <li><a href="ex1.java" >Nombrepremier </a></li>
+           </nav>
+           </ul>
+        </article>
+        </div>
+        <div class="js">
+        
+            <h1> JavaScript </h1>
+            <article class="art3">
+                <nav class="x">        
+           <ul>
+            <li>   <a href="ex1.js" >Animation </a>  </li>
+        </ul>
+               </nav>
+            </article>
+            </div>
+<div class="side" > 
+<h1> Newest News about Algorithms</h1>
+<br/>
+<p>New1 </p>
+<br/>
+<p>New1 </p>
+<br/>
+<p>New1 </p>
+<br/>
+<p>New1 </p>
+</div>
+<footer class="temp">
+    <p> TIMING:  <span id="datetime"></span></p>
+    <script>
+    var dt=new Date();
+    document.getElementById("datetime").innerHTML = (("0"+dt.getDate()).slice(-2)) +"."+ (("0"+(dt.getMonth()+1)).slice(-2)) +"."+
+     (dt.getFullYear()) +" "+ (("0"+dt.getHours()).slice(-2)) +":"+ (("0"+dt.getMinutes()).slice(-2));
+</script>
+</footer>
+</body>
+</html>
+
+
+
+

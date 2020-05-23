@@ -1,0 +1,169 @@
+body{
+    background:linear-gradient(90deg,black,gray) ;
+    width: 100%;
+    height:100vh;
+}
+
+    nav .logo{
+        float:left;
+        font-size:27px;
+        font-weight:600;
+        line-height:70px;
+        padding-left:60px;
+    color:teal;
+    font-family: patua one; }
+
+.ok{
+ font-family: patua one;
+position: absolute;
+top:4%;
+right:8%;
+color:darkorange;
+
+}
+*{
+    padding: 0 ;
+    margin:0;
+}
+.python{
+    width: 350px;
+
+    height:250px;
+position: absolute;
+top:15%;
+left:20%;
+border:inset;
+border-color: teal;
+border-radius:30%;
+}.python h1{
+    position: absolute  ;
+ right:40%;
+ color:burlywood;
+    }
+    .cp{
+        width: 350px;
+        height:250px;
+        position: absolute;
+        top:15%;
+right:20%;
+        border:outset;
+        border-color: teal;
+        border-radius:30%;
+        }.cp h1{
+            position: absolute  ;
+         right:40%;
+         color:burlywood;
+            }
+            .js{
+                width: 350px;
+                height:250px;
+                position: absolute;
+                top:60%;
+                left:20%;
+                border:inset;
+                border-color: teal;
+                border-radius:30%;
+                }
+                .js h1{
+                    position: absolute  ;
+                 right:30%;
+                 color:burlywood;
+                }
+                .java {
+                    width: 350px;
+                    height:250px;
+                position: absolute;
+                top:60%;
+                
+           right:20%;
+        border:outset;
+        border-color: teal;
+                border-radius:30%;
+            }
+                .java h1{
+                position: absolute  ;
+                     right:40%;
+                     color:burlywood;
+                    }
+                        
+               
+            a:hover{color:rgb(202, 255, 8);
+            }
+            a:active{
+                color:whitesmoke;
+            }
+            a:visited{
+                color:red;
+            }
+            .art1{
+                position: absolute;
+                width: 350px;
+
+                height:250px;
+            top:20%;
+            left:20%;
+            }
+            .art2{
+               
+        position: absolute;
+        top:19%;
+        right:0%;
+left:15%;
+
+            }
+            .art3{
+                width: 350px;
+                height:250px;
+                position: absolute;
+                top:20%;
+                left:20%;
+            }
+         .art4{
+            width: 350px;
+            height:250px;
+        position: absolute;
+        right:0%;
+        top:20%;
+left:15%;
+         }
+         .x{
+             color:yellowgreen;
+         }
+         .o{
+             font-family:patua one ;
+             width: 5em;
+             height: 5em;
+             border-radius: 20%;
+             border-color:darkcyan;
+             border:dashed;
+ color:tomato;
+         }
+.side {
+    padding: 10px;
+    margin: 10px;
+position: absolute;
+color: white;
+border: dashed antiquewhite ;
+border-radius: 15%;
+border-left: darkkhaki;
+border-right: darksalmon;
+left :2%;
+top:15%;
+
+
+     }    
+     .side  h1 {
+        font-size: 15px;
+        color:royalblue;
+        font-family:patua one ;
+        
+             }    
+             .temp{
+            position: absolute;
+                right:2%;
+                top:95%;
+                font-size: 24px;
+                color:yellowgreen;
+                font-family:patua one;
+            }
+           

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>website</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Merienda+One&family=Patua+One&display=swap" rel="stylesheet">
+      
+
+    </head>
+    <body>
+        <nav>
+           <div class="logo">MEDTAK</div>
+           <label for="btn" class="icon" >
+            <i class="fas fa-bars" ></i>
+            
+
+           </label>
+           <input type="checkbox" id="btn">
+            <ul>
+                <li><a href="#" class=><i class='fas fa-home'></i>  HOME</a></li>
+                <li>
+                    <a href="#" class=><i class='far fa-id-card'></i> ABOUT US</a></li>
+                <li>
+                    <label for="btn-1" class="show"><i class='fas fa-project-diagram'></i> PROJECTS <i class='fas fa-caret-down'></i> </label>
+                    
+                    <a href="#"><i class='fas fa-project-diagram'></i> PROJECTS <i class='fas fa-caret-down'></i></a>
+                    
+                    <input type="checkbox" id="btn-1">
+                    <ul>
+                        <li>
+                            <label for="btn-2" class="show">Applications <i class='fas fa-caret-down'></i></label>
+                            <a href="#">Applications <i class='fas fa-caret-right'></i></a>
+                            
+                            <input type="checkbox" id="btn-2">
+                        
+                        
+                            <ul>
+                                <li><a href="#"> Desktop Apps</a></li>
+                                <li><a href="#">Mobile Apps</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Programs</a></li>    
+                        <li><a href="#">Websites</a></li>
+                        <li><a href="#"> Games</a></li>
+                        <li><a href="#"> Designs</a><li>
+                       
+
+                        
+                        
+                    </ul>             
+                </li>
+               
+                <li><a href="contact.html" ><i class='fas fa-comments'></i> CONTACT</a></li>  
+            </ul>                        
+        </nav>
+        <h1>Welcome!</h1>
+        
+        <footer class="temp">
+            <p> TIMING:  <span id="datetime"></span></p>
+            <script>
+            var dt = new Date();
+            document.getElementById("datetime").innerHTML = (("0"+dt.getDate()).slice(-2)) +"."+ (("0"+(dt.getMonth()+1)).slice(-2)) +"."+
+             (dt.getFullYear()) +" "+ (("0"+dt.getHours()).slice(-2)) +":"+ (("0"+dt.getMinutes()).slice(-2));
+        </script>
+        </footer>
+        
+        
+    </body>
+</html>
+  

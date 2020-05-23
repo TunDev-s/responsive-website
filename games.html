@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Games' Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="game.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Merienda+One&family=Patua+One&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <nav>
+        <h1> OurGames </h1>
+        </nav>
+        <a href="#" class="game1">
+            <span> </span>
+            <span> </span>
+            <span> </span>
+            <span> </span>
+Game1
+        </a> <br>
+        <a href="#" class="game2">
+            <span> </span>
+            <span> </span>
+            <span> </span>
+            <span> </span>
+Game2
+        </a>
+        <a href="#" class="game3">
+            <span> </span>
+            <span> </span>
+            <span> </span>
+            <span> </span>
+Game3
+        </a>
+        <a href="#" class="game4">
+            <span> </span>
+            <span> </span>
+            <span> </span>
+            <span> </span>
+Game4
+        </a>
+        <div class="side" > 
+            <h1>Games' Description </h1>
+            <br/>
+            <p>Game1: </p>
+            <br/>
+            <p>Game2: </p>
+            <br/>
+            <p>Game3: </p>
+            <br/>
+            <p>Game4: </p>
+            </div>
+
+        <footer class="temp">
+            <p> TIMING:  <span id="datetime"></span></p>
+            <script>
+            var dt=new Date();
+            document.getElementById("datetime").innerHTML = (("0"+dt.getDate()).slice(-2)) +"."+ (("0"+(dt.getMonth()+1)).slice(-2)) +"."+
+             (dt.getFullYear()) +" "+ (("0"+dt.getHours()).slice(-2)) +":"+ (("0"+dt.getMinutes()).slice(-2));
+        </script>
+        </footer>
+    </body>
+</html> 

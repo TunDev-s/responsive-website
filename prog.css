@@ -1,5 +1,5 @@
 body{
-    background:linear-gradient(90deg,black,gray) ;
+    background:linear-gradient(90deg,black,gray,black);
     width: 100%;
     height:100vh;
 }
@@ -86,7 +86,9 @@ right:20%;
                      color:burlywood;
                     }
                         
-               
+            a {
+                color:salmon;
+            }
             a:hover{color:rgb(202, 255, 8);
             }
             a:active{
@@ -139,8 +141,8 @@ left:15%;
  color:tomato;
          }
 .side {
-    padding: 10px;
-    margin: 10px;
+    padding: 15px;
+    margin: 15px;
 position: absolute;
 color: white;
 border: dashed antiquewhite ;

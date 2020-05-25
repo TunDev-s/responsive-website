@@ -6,7 +6,8 @@ body{
 
     nav .logo{
         float:left;
-        font-size:27px;
+        letter-spacing: 4px;
+        font-size:35px;
         font-weight:600;
         line-height:70px;
         padding-left:60px;
@@ -162,10 +163,12 @@ top:15%;
              }    
              .temp{
             position: absolute;
-                right:2%;
+                right:1%;
                 top:95%;
                 font-size: 24px;
                 color:yellowgreen;
                 font-family:patua one;
             }
+      
+
            

@@ -9,26 +9,57 @@
 
 <meta  charset =" utf-8">
 <script> 
-function search() {
- 
+/*function search(){
+    var text = document.getElementById('srch' )
+loadCount = 0;
+files = [];
+files[ 0 ] = {};
+files[ 0 ][ 'filename' ] = "file1.html";
+files[ 1 ] = {};
+files[ 1 ][ 'filename' ] = "file2.html";
+files[ 2 ] = {};
+files[ 2 ][ 'filename' ] = "file3.html";
+files[ 3 ] = {};
+files[ 3 ][ 'filename' ] = "file4.html";
+files[ 4 ] = {};
+files[ 4 ][ 'filename' ] = "file5.html";
+function search2( item, index ) {
+  xmlhttp.onload = function () {
+    var files[ index ][ 'contents' ]  = xhr.responseText;
+    if ( typeof files[ index ][ 'contents' ] !== 'undefined' ) {
+      files[ index ][ 'position' ] = str.indexOf( text );
+    } else {
+      files[ index ][ 'position' ] = -2;
+    }
+    loadCount = loadCount + 1;
+    if ( loadCount == 5 ) {
+      //much results are presented 
+    }
+  }
+
+  var xhr = new XMLHttpRequest();
+  xhr.open( "GET", item[ 'filename' ], false );
+  xhr.send();
+
 }
+ <form name="f1" class="ok"  >
+  <label> search your program here : </label> <input type="search" name="srch" maxlength="50" placeholder="Exmpl:Hashtable.py" />
+  <input type="submit" onclick="search()"   value="Search" class="o"> 
+files.forEach( search );
+}*/
 </script>
 </head>
 <body>
-    <nav>
+    <nav class="lol">
         <div class="logo"> Programs' Libraries</div>
-<form name="f1" class="ok"  >
-    <div class="lol">
-  <label> search your program here : </label> <input type="search" maxlength="50" placeholder="Exmpl:Hashtable.py" />
-  <input type="button" onclick="search()"   value="Search" class="o"> 
-</div>
+
 </nav>
 <div class="python">
 <h1> Python</h1>
 <article class="art1">
     <nav class="x">    
  <ul>
-<li><a href="ex1.py" >Nombrepremier </a> </li>
+<li><a href="ex1.py" target="_blank" >Nombrepremier </a> </li>
 </nav>
 </article>
 </div>
@@ -37,7 +68,7 @@ function search() {
     <article class="art2">
         <nav class="x">
             <ul>
-      <li> <a href="ex1.cpp" >Nombrepremier </a> </li>
+      <li> <a href="ex1.cpp" target="_blank" >Nombrepremier </a> </li>
     </ul>
             </nav>
     </article>
@@ -48,7 +79,7 @@ function search() {
         <article class="art4">
             <nav class="x">             
                    <ul>
-           <li><a href="ex1.java" >Nombrepremier </a></li>
+           <li><a href="ex1.java" target="_blank"> Nombrepremier </a></li>
            </nav>
            </ul>
         </article>
@@ -59,7 +90,7 @@ function search() {
             <article class="art3">
                 <nav class="x">        
            <ul>
-            <li>   <a href="ex1.js" >Animation </a>  </li>
+            <li>   <a href="ex1.js" target="_blank"> Animation </a>  </li>
         </ul>
                </nav>
             </article>
@@ -85,6 +116,11 @@ function search() {
 </footer>
 </body>
 </html>
+
+
+
+
+
 
 
 

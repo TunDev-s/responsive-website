@@ -1,9 +1,23 @@
 body{
-    background:linear-gradient(90deg,black,gray,black);
-    width: 100%;
-    height:100vh;
+background:linear-gradient(-45deg,black,gray,#E73c7E, #23A6D5, #23D5AB,gray,black) ; 
+padding: 0;
+margin: 0;
+animation: change 15s ease-in-out infinite;
+width: 100%;
+height: 100vh;
+background-size: 400% 400%;
+position: relative;
 }
-
+@keyframes change{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
     nav .logo{
         float:left;
         letter-spacing: 4px;

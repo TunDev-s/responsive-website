@@ -1,0 +1,120 @@
+
+body {background-image: url(app.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+     padding:0;
+     font-family: 'DM Mono', monospace;
+     margin:0;
+
+}
+.logo{
+ float:left;
+ font-size: 50px;
+font-style: inherit;
+color:teal;
+text-align: center;  
+flood-opacity:right;
+position: absolute;
+left:3%;
+font-family: 'DM Mono', monospace;
+ }
+ .logo2{
+    position: absolute;
+    right:20%;
+    flood-opacity:right;
+ padding:2;
+ margin:3;
+ font-size: 50px;
+font-style: inherit;
+color:teal;
+font-family: 'DM Mono', monospace;
+ }
+ .container{
+  font-family: 'IBM Plex Mono', monospace; 
+   position: absolute;
+   left:3%;
+  width:500px;
+  top:20%;
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+   grid-gap:5px;
+   margin:0 auto;
+ }
+ .container .card{
+   position: relative;
+   width:200px;
+   height:250px;
+   margin:0 auto ;
+   background: white;
+   box-shadow: 0 15px 60px rgba(0,0,0,.5);
+ }
+ .container .card .face
+ {
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width:100%;
+   height: 100%;
+   display: flex;
+ }
+ .container .card .face.face1  {
+  box-sizing: border-box;
+  padding: 20px;
+}
+.container .card .face.face1 h2   {
+margin:0;
+padding: 0;
+
+}
+.container .card .face.face2  {
+  background: #111;
+  transition: 0.5s;
+} 
+.container .card:nth-child(1) .face.face2 {
+  background: linear-gradient(45deg,#ccff00,#09afff);
+}
+.container .card:nth-child(2) .face.face2 {
+  background: linear-gradient(45deg,#09afff,#ffeb3b);
+}
+.container .card:nth-child(3) .face.face2 {
+  background: linear-gradient(45deg,#ffeb3b,#f10b58);
+}
+ .container .card .face.face2 h2 {
+   margin:0;
+   padding: 0;
+   font-size: 10em;
+   color:#fff;
+   transition:0.5s ;
+ }
+.container .card:hover .face.face2
+ {
+height:60px; 
+}
+
+.container .card:hover .face.face2  h2 
+{
+  font-size: 2em;
+}
+.container .card .face.face2: before {
+  content : '';
+  position: absolute;
+  top:0;
+  left:0;
+  width:50%;
+  height:100%;
+  background: rgba(255,255,255,.1);
+ } 
+.temp{
+  position: absolute;
+      right:2%;
+      top:92%;
+      font-size:24px;
+      color:darkolivegreen;
+      font-family: 'DM Mono', monospace;
+    }

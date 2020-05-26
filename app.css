@@ -19,8 +19,11 @@ color:teal;
 text-align: center;  
 flood-opacity:right;
 position: absolute;
-left:3%;
+left:7%;
 font-family: 'DM Mono', monospace;
+ }
+ .white{
+     color:white;
  }
  .logo2{
     position: absolute;
@@ -66,6 +69,7 @@ font-family: 'DM Mono', monospace;
  .container .card .face.face1  {
   box-sizing: border-box;
   padding: 20px;
+  
 }
 .container .card .face.face1 h2   {
 margin:0;
@@ -83,7 +87,7 @@ padding: 0;
   background: linear-gradient(45deg,#09afff,#ffeb3b);
 }
 .container .card:nth-child(3) .face.face2 {
-  background: linear-gradient(45deg,#ffeb3b,#f10b58);
+  background:linear-gradient(45deg,#09afff,#ffeb3b);
 }
  .container .card .face.face2 h2 {
    margin:0;

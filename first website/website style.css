@@ -1,0 +1,41 @@
+body{
+    background:url("tof2.jpg") no-repeat  ;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size:cover;
+    background-size: cover;
+
+
+}
+h1{
+    font-family: merienda one;
+}
+h2{
+    font-family: patua one;
+}
+
+
+li{
+    padding-bottom: 20px;
+    padding-right: 20px;
+    
+}
+img{
+    height:400px;
+    width: 500px;
+    cursor: pointer;
+    opacity:0.8;
+}
+img:hover{
+    transition:0.5s;
+    transform:skew(5deg);
+    border:3px solid white;
+    
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin-left: 115px;
+    
+    
+}

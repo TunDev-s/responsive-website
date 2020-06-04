@@ -5,10 +5,42 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans">
+
 <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Merienda+One&family=Patua+One&display=swap" rel="stylesheet">
 
 <meta  charset =" utf-8">
 <script> 
+function iL( ) {
+  var z, i, elmnt, file, xhttp;
+  /* Loop through a collection of all HTML elements: */
+  z = document.getElementById("so").val();
+  if (z.length==0)
+  document.write=" You didn't write nothing "; 
+  else {
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("program.html");
+    if (file) {
+      /* Make an HTTP request using the attribute value as the file name: */
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /* Remove the attribute, and call this function once more: */
+          elmnt.removeAttribute("program.html");
+          iL();
+        }
+      }
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /* Exit the function: */
+      return;
+    }}
+  }
+}
 /*function search(){
     var text = document.getElementById('srch' )
 loadCount = 0;
@@ -42,9 +74,6 @@ function search2( item, index ) {
   xhr.send();
 
 }
- <form name="f1" class="ok"  >
-  <label> search your program here : </label> <input type="search" name="srch" maxlength="50" placeholder="Exmpl:Hashtable.py" />
-  <input type="submit" onclick="search()"   value="Search" class="o"> 
 files.forEach( search );
 }*/
 </script>
@@ -52,14 +81,16 @@ files.forEach( search );
 <body>
     <nav class="lol">
         <div class="logo"> Programs' Libraries</div>
-
+        <form name="f1" class="ok"  >
+          <label> search your program here : </label> <input type="search" name="srch" id="so" maxlength="50" height="40px" placeholder="Exmpl:Hashtable.py" />
+        <button  onclick="iL() " class="hey ">  <i class="fas fa-search" class="o" title="click here to search" ></i><button>
 </nav>
 <div class="python">
 <h1> Python</h1>
 <article class="art1">
     <nav class="x">    
  <ul>
-<li><a href="ex1.py" target="_blank" >Nombrepremier </a> </li>
+<li><a href="ex1.py" target="_blank"  name="ex1.py">Nombrepremier </a> </li>
 </nav>
 </article>
 </div>
@@ -116,12 +147,4 @@ files.forEach( search );
 </footer>
 </body>
 </html>
-
-
-
-
-
-
-
-
 

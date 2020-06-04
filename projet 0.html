@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" href="salem.css" >  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans">
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Merienda+One&family=Patua+One&display=swap" rel="stylesheet">
+
+
+<meta  charset =" utf-8">
+<title>Dhahak & takwa site 
+</title>
+</head>
+<body>
+    <div class="x">
+        <h1>MEDTAK</h1>
+    </div>
+<div class="slider">
+  <div class="load">
+
+  </div>
+
+<div class="content">
+<div class="principal">
+</div>
+</div>
+</div>
+    <div id="menu-bar">
+        <div id="menu" onclick="onClickMenu()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+        </div>
+        <ul class="nav" id="nav">
+            <li><a href="programs.html" target="_blank"  >Programs</a></li>
+            <li><a href="mobileapp.html" target="_blank">Mobile Applications</a></li>
+            <li><a href="desktop.html" target="_blank" >Desktop Applications </a></li>
+            <li><a href="website page.html" target="_blank" >Web Sites </a></li>
+            <li><a href="design.html" target="_blank" >Design</a></li>
+            <li><a href="contact.html" target="_blank" >Contact Us </a></li>
+             </ul>
+    </div>
+    <div class="menu-bg" id="menu-bg"></div>
+    <script src="script.js"></script>
+<div class="wa">
+<h1>Hello Everyone,  </h1>
+</div>
+<box class="par"> 
+<p>We Are AMin Dhahak and Takwa Jradi , both of us are front-End Tunisian Developpers</p>
+    <p>we hope that our projects be pleasent for you, Your opinion is important don't hesitate to contact us  </p>
+</box>
+<footer class="foot" >
+    <nav  >
+        
+           
+                <a href="https://www.facebook.com"  target="_blank"  ></a>
+                    <i class="fa fa-facebook"></i>
+                
+             <a  href="https://www.instagram.com" id="fin"target="_blank" > </a>
+             <i class="fa fa-instagram" > </i> 
+                
+             <a  href="https://www.Github.com" id="fin"   target="_blank"></a>  
+             <i class="fa fa-github"></i>
+             <a href="https://www.youtube.com/" id="fin" target="_blank"  class="fa fa-youtube"> </a>
+        
+    </nav>
+    <p> Tous les droits sont réservées © </p>
+</footer>
+<aside class="temp">
+    <p> Today is :  <span id="datetime"></span></p>
+
+    <script>
+    var dt = new Date();
+    document.getElementById("datetime").innerHTML = (("0"+dt.getDate()).slice(-2)) +"."+ (("0"+(dt.getMonth()+1)).slice(-2)) +"."+
+     (dt.getFullYear()) +" "+ (("0"+dt.getHours()).slice(-2)) +":"+ (("0"+dt.getMinutes()).slice(-2));
+</script>
+</aside>
+</body>
+</html>

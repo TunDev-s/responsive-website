@@ -1,0 +1,292 @@
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.x h1{ 
+  float:left;
+    color:lightseagreen;
+    font-size:30px;
+    font-weight:600;
+    line-height:110px;
+    padding-left:20px;
+    font-family: merienda one;
+    animation: 3s roule infinite backwards;
+}
+@keyframes roule {
+0%{
+transform:rotate(0deg); }
+50%{
+  transform:rotate(360deg);
+
+}
+
+
+}
+.wa h1 {
+ font-family: sans-serif;
+
+font-size: 50px;
+color:white;
+letter-spacing: 2px;
+top:15%;
+left:10%;
+position : absolute;
+border-bottom: 5px solid yellowgreen ;
+margin-bottom: 20px;
+animation:  xph infinite 100s ;
+} 
+@keyframes xph {
+  0%{
+    color:white;
+  }
+  20.01%{
+    color:black;
+  }
+  40.01%{
+    background: transparent;
+    color:wheat;
+  }
+  80.01%{
+    color:white;
+  }
+}
+
+.par{
+  letter-spacing: 2px ;
+  font-family:  Verdana;
+    font-style: italic bold ;
+    font-size:20px;
+    position: absolute;
+    top:27%;
+    left:20%;
+    right:10%;
+    position : absolute;
+  } 
+  .par p {
+    animation:  xth infinite 105S ;  } 
+  @keyframes xth {
+    0%{
+      color:greenyellow;
+      background-color: transparent;
+    }
+    20.01%{
+      color:rgb(216, 106, 106);
+      background-color: transparent;
+
+    }
+    40.01%{
+ 
+      background-color: transparent;
+     color: greenyellow;
+      border-radius: 50%;
+    }
+    60.01%{
+
+      background-color: transparent;
+      color:greenyellow;
+    }
+    100%{
+      color:greenyellow;
+      background-color: transparent;
+
+    }
+  }
+.foot p {
+font-size: 13.5px;
+position : absolute;
+left:40%;
+right:50%;
+top:95%;
+bottom:10%;
+color:skyblue ;}
+
+.fa:hover {
+  opacity: 0.5;
+}
+.fa-facebook{
+  animation: 2.5s roule infinite forwards;
+
+  background: #3B5998;
+  color: white;
+  left:10%;
+  position: absolute;
+}
+.fa-instagram {
+  animation: 2.5s roule infinite forwards;
+
+  background: yellowgreen;
+  color: white;
+  left:30%;
+  position: absolute;
+
+}
+.fa-github{
+  animation: 2.5s roule infinite forwards;
+
+  background:grey;
+  color: white;
+  position: absolute;
+  left:60%;
+}
+.fa-youtube{
+  animation: 2.5s roule infinite forwards;
+
+  position: absolute;
+  left:85%;
+  background:rgba(243, 34, 34, 0.493);
+}
+.fa {
+  position: absolute;
+  position: middle ;
+  top:88%;
+  padding: 20px;
+  font-size:30px;
+  width: 20px;
+  border-radius:50%;
+}
+#menu{
+	width: 35px;
+	height: 30px;
+	margin: 30px 0 20px 20px;
+	cursor: pointer;
+}
+.bar{
+	height: 5px;
+	width: 100%;
+	background-color: yellowgreen;
+	display: block;
+	border-radius: 5px;
+	transition: 0.3s ease;
+}
+#bar1{
+	transform: translateY(-4px);
+}
+#bar3{
+	transform: translateY(4px);
+}
+.nav li a{
+  color:whitesmoke;
+  font-style: initial;
+  font-size: 20px;
+}
+.nav li a:hover{
+  font-weight: bold;
+  color:greenyellow;
+  transition: ease-in 2s all infinite ;
+}
+.nav li{
+	list-style: none;
+	padding: 16px 0;
+}
+.nav{
+	padding: 0;
+	margin: 0 20px;
+	transition: 0.3s ease;
+	display: none;
+}
+.menu-bg, #menu-bar{
+	top: 0%;
+	right:2%;
+  position: absolute;
+  
+}
+#menu-bar{
+	z-index: 2;	
+}
+.change-bg{
+	width: 550px;
+	height: 540px;
+	transform: translate(-60%,-30%);
+}
+.change .bar{
+	background-color :white;
+}
+.change #bar1{
+	transform: translateY(4px) rotateZ(-45deg);
+}
+.change #bar2{
+	opacity: 0;
+}
+.change #bar3{
+	transform: translateY(-6px) rotate(45deg);
+}
+.change{
+	display: block;
+}
+.nav li a:visited{
+    background-color:green ;
+    opacity:0.5;
+}
+* {
+  margin: 0;
+  padding:0;
+
+}
+.load{
+  animation: slide 2s ;
+}
+.slider{
+  background-position:center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100% ;
+height:100vh;
+  animation: slide 40s infinite;
+}
+.content{
+color:#fff;
+width: 100% ;
+height:100vh;
+}
+.principal{
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  background-color: rgba(0,0,0,0.5);
+}
+
+@keyframes  slide {
+0% {
+  background-image: url(desk.jpg);
+}
+20%
+{
+  background-image: url(desk.jpg);
+}
+20.01%{ 
+
+  background-image: url(desk2.jpg);
+}
+40%{
+  background-image: url(desk2.jpg);
+
+}
+40.01%{
+  background-image: url(desk3.jpg);
+}
+60%{
+  background-image: url(dessk3.png);
+}
+80%{
+  background-image: url(dessk3.png);
+
+}
+80.01%
+{
+  background-image: url(desk5.jpg);
+}
+100%{
+  background-image: url(desk5.jpg);
+}
+}
+.temp{
+position: absolute;
+right:2%;
+top:97%;
+font-size: 15px;
+color:goldenrod;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+

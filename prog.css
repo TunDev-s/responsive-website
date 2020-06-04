@@ -1,5 +1,6 @@
 body{
-background:linear-gradient(-45deg,black,gray,#E73c7E, #23A6D5, #23D5AB,gray,black) ; 
+    background:linear-gradient(-45deg,black,gray,#E73c7E, #23A6D5, #23D5AB,gray,black) ; 
+
 padding: 0;
 margin: 0;
 animation: change 15s ease-in-out infinite;
@@ -18,6 +19,8 @@ position: relative;
     100%{
         background-position: 0 50%;
     }
+
+}
     nav .logo{
         float:left;
         letter-spacing: 4px;
@@ -27,13 +30,24 @@ position: relative;
         padding-left:60px;
     color:teal;
     font-family: patua one; }
-
+.hey{
+    border-color: transparent;
+    background-color: transparent;
+    color:darkorange;
+    width: 50px;
+    height:30px;
+}
+.hey+i{
+color:darkorange;
+font-size: 80px;
+}
 .ok{
  font-family: patua one;
 position: absolute;
 top:4%;
 right:8%;
 color:darkorange;
+font-size: 30px;
 
 }
 *{
@@ -147,14 +161,9 @@ left:15%;
              color:yellowgreen;
          }
          .o{
-             font-family:patua one ;
-             width: 5em;
-             height: 5em;
-             border-radius: 20%;
-             border-color:darkcyan;
-             border:dashed;
- color:tomato;
-         }
+size:100px;            
+           color:whitesmoke;
+         }      
 .side {
     padding: 15px;
     margin: 15px;
@@ -184,5 +193,3 @@ top:15%;
                 font-family:patua one;
             }
       
-
-           

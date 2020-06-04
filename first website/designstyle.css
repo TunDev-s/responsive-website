@@ -1,77 +1,86 @@
-html{
-    height:100%;
-    overflow: hidden;
-}
+
 body{
-    color:#fff;
+  background-image: url(tof4.jpg);
     margin:0;
     padding:0;
-    perspective: 1px;
-    transform-style:preserve-3d ;
-    height: 100%;
     overflow-y:scroll ;
     font-family: merienda one;
-    background-color: 	#006400;
-
-
-}
-header{
-    box-sizing:border-box;
-    min-height: 100vh;
-    padding:30vw 0 50vw;
-    transform-style:inherit ;
-    width: 100vw;
-    
-}
-header h1{
-    margin-top: -400px;
-    font-size: 40px;
-    color:green;
-    background: black;
-    opacity: 0.8;
-
-}
-header, header:before{
-    background: 50% 50%  cover;
-}
-header::before{
-    bottom:0;
-    content:"";
-    left:0;
+} h1{
+    margin-top: -2px;
     position: absolute;
-    right: 0;
-    top:0;
-    display: block;
-    background-image: url("design.jpg");
-    background-size: cover;
-    transform-origin: center center 0 ;
-    transform:translateZ(-1px) scale(2);
-    z-index:-1;
-    min-height: 100vh;
-    
+    top:1%;
+    left:1%;
+    font-size: 30px;
+    color:purple;
+    opacity: 0.7;
 
 }
+@keyframes roule {
+0%,100%{
+transform:rotate(0deg); }
+50%{
+  transform:rotate(360deg);
+}
+}
+.pdwrok {
+position: relative;
+top:30%;
+left:4%;
+}
+.fenddesign{
+ position: relative;
+left:40%;
+}
+.logo{
+    position: relative;
+    top:20%;
+    left: 75%;
+}
+.ok1{
+    animation: 5s roule infinite backwards;
+    position: absolute;
+    top:14%;
+    left:4%;
+}
+@keyframes wa{
+    0%,100%{
+    transform:skew(0deg); }
+    50%{
+      transform:skew(180deg);
+    }
+    }
+.ok2 {
+    animation: 5s wa infinite backwards;
 
+    position: absolute;
+    top:14%;
+    left: 40%;
+}
+.ok3{
+    animation: 5s roule infinite backwards;
+
+position: absolute;
+top:14%;
+left: 75%; }
 
 a{
     text-decoration: none;
-    color: #7f00ff;
+    color: lightskyblue;
+
     font-size: 25px;
     font-weight: bold;
+    font-style: italic;
+letter-spacing: 2px;
     
 }
 a:hover{
-    font-size: 26px;
-    transition: 0.2s;
-    color:red;
-}
-
-
-header *{
-    font-weight: normal;
-    letter-spacing: 0.2em;
-    text-align:center;
-    margin:0;
-    padding:1em 0;
-
-}
+    font-size: 30px;
+    transition: 0.3s both  ;
+    color:rgb(52, 155, 214);
+    letter-spacing:5px;
+    background-color:lightsteelblue;
+border-radius: 70%;
+text-align: justify;
+text-decoration: lightgreen;
+text-anchor: start;
+font-style: unset;}

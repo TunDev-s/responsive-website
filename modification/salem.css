@@ -1,0 +1,236 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("desk4.jpg");
+  }
+  .x h1{
+    float:left;
+     
+      font-size:30px;
+      font-weight:600;
+      line-height:110px;
+      padding-left:20px;
+      font-family: merienda one;
+     animation: 3s xph ;
+     color:purple;
+
+  }
+  #navbarSupportedContent{
+    font-family:merienda one;
+
+  }
+  
+  .content img{ 
+    float:left;
+     width: 50px;
+     height: 40px;
+     animation: 5s roule;
+     
+  }
+  @keyframes roule {
+  0%{
+  transform:rotate(0deg); }
+  50%{
+    transform:rotate(180deg);
+  
+  }
+  100%{
+    transform:rotate(360deg);
+  }
+  
+  
+  }
+  .wa h1 {
+   font-family: patua one;
+  
+  font-size: 50px;
+  color:black;
+  letter-spacing: 2px;
+  top:15%;
+  left:10%;
+  position : absolute;
+  border-bottom: 5px solid purple ;
+  margin-bottom: 20px;
+  animation:  xph  3s  infinite;
+  } 
+  
+  @keyframes xph {
+    0%{
+      color:gold;
+    }
+    20.01%{
+      color:rgb(14, 14, 158);
+    }
+    40.01%{
+      background: transparent;
+      color:rgb(14, 14, 158);
+    }
+    80.01%{
+      color:rgb(14, 14, 158);
+    }
+    100%{
+      color:rgb(14, 14, 158);
+    }
+  }
+  
+  .par{
+    letter-spacing: 2px ;
+    font-family: patua one;
+      font-style: italic bold ;
+      font-size:30px;
+      position: absolute;
+      top:27%;
+      left:20%;
+      right:10%;
+      position : absolute;
+      color:gold;
+      
+      
+      
+    } 
+    .par p {
+      animation:  xth infinite 105S ;  } 
+     @keyframes xth {
+      0%{
+        color:gold;;
+        background-color: transparent;
+      }
+      20.01%{
+        color:purple;
+        background-color: transparent;
+  
+      }
+      40.01%{
+  
+        background-color: transparent;
+       color: gold;
+        border-radius: 50%;
+      }
+      60.01%{
+  
+        background-color: transparent;
+        color:purple;
+      }
+      100%{
+        color:gold;
+        background-color: transparent;
+  
+      }
+    }
+ 
+  
+  .fab:hover {
+    opacity: 0.5;
+    
+  }
+  .fa-facebook-square{
+    
+    color: white;
+    left:30%;
+    position: absolute;
+  }
+  .fa-instagram {
+    
+    color: purple;
+    
+    left:60%;
+    position: absolute;
+  
+  }
+  .fa-github-square{
+    
+    color: white;
+    position: absolute;
+    left:90%;
+
+  }
+  
+  
+  .fa-linkedin{
+    position:absolute;
+    
+
+  }
+  .fab {
+    position: absolute;
+    position: middle ;
+    top:76%;
+    padding: 20px;
+    font-size:15px;
+  
+    
+  }
+  
+
+  * {
+    margin: 0;
+    padding:0;
+  
+  }
+  .content{
+    color:purple;
+  }
+  .load{
+    animation: slide 2s ;
+  }
+  .slider{
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100% ;
+    height:100vh;
+    animation: slide 40s ;
+    
+  }
+  .content{
+  color:#fff;
+  width: 100% ;
+  height:100vh;
+  }
+  .principal{
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+  }
+  
+  @keyframes  slide {
+  0% {
+    background-image: url(desko.jpg);
+  }
+  
+  20%{ 
+  
+    background-image: url(desk4.jpg);
+  }
+  40%{
+    background-image: url(desk4.jpg);
+  
+  }
+  40.01%{
+    background-image: url(desk4.jpg);
+  }
+  60%{
+    background-image: url(desk4.jpg);
+  }
+  80%{
+    background-image: url(desk4.jpg);
+  
+  }
+  80.01%
+  {
+    background-image: url(desk4.jpg);
+  }
+  100%{
+    background-image: url(desk4.jpg);
+  }
+}
+  .temp{
+  position: absolute;
+  right:2%;
+  top:93%;
+  font-size: 20px;
+  color:rgb(14, 14, 158);
+  font-family:merienda one;
+  }
